@@ -104,6 +104,11 @@ header {
   border-radius: 20px;
 }
 
+.nav:hover {
+  border-bottom: 2px solid linen;
+  transition:border-bottom 0.5s ease linear;
+}
+
 .hero {
   padding: 10px;
   text-align: center;
@@ -217,6 +222,10 @@ button {
   border-radius: 10px;
 
 
+}
+
+button:hover {
+  background:wheat ;
 }
 
 button a {
