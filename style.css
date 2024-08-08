@@ -1,0 +1,231 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  
+}
+
+
+body {
+    font-size: 15px; 
+    font-family: fantasy,Arial, Helvetica, sans-serif, 'Times New Roman', Times, serif;
+    background-color: #fae5b2;
+
+}
+
+/* Custom Styles */
+
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  
+}
+
+.logo {
+  flex: 1;
+}
+
+.nav-links {
+  display: flex;
+  flex: 1;
+  justify-content: flex-end; /* Aligns the navigation links to the right */
+}
+
+.nav-links table {
+  display: flex;
+}
+
+.nav-links td {
+  list-style: none;
+  padding: 0 15px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  
+  font-weight: bold;
+}
+
+/* Media query for desktop screens */
+@media (min-width: 768px) {
+  .nav-links {
+    justify-content: flex-end; /* Ensures the links stay aligned to the right */
+  }
+}
+
+/* Media query for mobile screens */
+@media (max-width: 767px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-links {
+    justify-content: flex-start;
+    width: 100%;
+  }
+
+  .nav-links table {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .nav-links td {
+    padding: 10px 0;
+    text-align: center;
+    width: 100%;
+  }
+
+  .nav-links a {
+    width: 100%;
+    display: block;
+  }
+}
+
+.logo-img {
+  border-radius:40px; 
+  margin: 5px;
+}
+
+header {
+  background: #663332;
+  padding: 10px;
+}
+
+.nav {
+  color: linen;
+  text-decoration: none;
+  text-align: center;
+  margin: 3px;
+  padding: 3px;
+ 
+  border-radius: 20px;
+}
+
+.hero {
+  padding: 10px;
+  text-align: center;
+  background:tan  ;
+  box-shadow: 10px 8px 10px 8px black;
+
+  border-bottom-right-radius: 50px
+}
+
+.hero-img {
+  border-radius: 40px;
+  float: left;
+}
+
+.hero-img-2 {
+border-radius: 40px;
+float: right;
+}
+
+
+.service {
+  padding: 20px;
+  text-align: center;
+  background: linen;
+  border-top-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  box-shadow: 10px 8px 10px 8px black;
+
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.item-1 {
+  flex: 1 1 5px;
+  padding: 3px;
+  margin: 10px;
+  background: #663332;
+  border-radius: 10px;
+  box-shadow: 10px 8px 10px 8px black;
+  text-align: center;
+}
+
+.item1-img {
+  border-radius: 6px;
+}
+
+.text {
+  color: #fae5b2;
+  background: #af7a54;
+  margin: 2px;
+  padding: 2px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+/* Media query for mobile view */
+@media (max-width: 768px) {
+  .products {
+    display: flex;
+  }
+
+  .item-1 {
+    width: 100px;
+    margin: 10px ;
+  }
+}
+
+.ceo {
+  margin: 5px;
+  padding: 10px;
+  background: #af7a54;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 10px 8px 10px 8px black;
+
+}
+
+.the-ceo {
+  border-radius: 20px
+}
+
+.contact {
+  margin: 5px;
+  padding: 10px;
+  text-align: center;
+  background:tan;
+  border-radius: 20px;
+  box-shadow: 10px 8px 10px 8px black;
+
+}
+
+.footer {
+  text-align: center;
+  background: #663332;
+  color: linen;
+
+}
+
+button {
+  margin: 5px;
+  padding: 5px;
+  color: linen;
+  background: #663332;
+  border: 2px solid linen;
+  box-shadow: 10px 8px 10px 8px black;
+  border-radius: 10px;
+
+
+}
+
+button a {
+  text-decoration: none;
+  color: #faf8f0;
+}
+
+/*� #faf8f0� #663332� #af7a54� #fae5b2� #d5ad8a */
+
+/*#faf8f0: Linen, #663332: Tuscan Red, #af7a54: Deer, #fae5b2: Peach Puff, #d5ad8a: Tan, */
+
+
